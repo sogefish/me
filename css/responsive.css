@@ -1,0 +1,206 @@
+/*
+Template Name: Deniel-Cruze
+File Name: responsive.css
+Author Name: ThemeVault
+Author URI: http://www.themevault.net/
+License URI: http://www.themevault.net/license/
+*/
+
+/* Landscape phones and smaller */
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1070px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) { 
+    .banner-content-wrapper, .tv-image-rule {
+        height: 70vh;
+    }
+    .navbar-nav > li {
+        max-width: 90px;
+    }
+
+}
+@media only screen and (max-width: 991px) {
+    .banner-content-wrapper, .tv-image-rule {
+        height: 60vh;
+    }
+    .navbar-nav > li {
+        max-width: 80px;
+    }
+    .banner-content-wrapper h1{
+        font-size: 3.5em;
+    }
+    .banner-content-wrapper p {
+        font-size: 3.15em;
+        line-height: 55px;
+    }
+    .tv-section-padding {
+        padding-top: 80px;
+    }
+    .tv-offspace-space {
+        margin-top: 80px;
+    }
+    .tv-section-padd-tb-80 {
+        padding-bottom: 65px;
+        padding-top: 65px;
+    }
+    .tv-service-block {
+        margin-bottom: 25px;
+    }
+    .tv-service-list > div:nth-last-child(-n+2) .tv-service-block {
+        margin-bottom: 25px;
+    }
+    .tv-service-block > p {
+        font-size: 0.9em;
+    }
+    .tv-gallery:hover .overlay {
+        width: 70%;
+    }
+    #subscribe {
+        margin-left: 0;
+    }
+    .tv-add-offspace-30 {
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+@media only screen and (max-width: 767px) {
+    .navbar-toggle {
+        margin-right: 0;
+        padding-right: 0;
+    }
+    .navbar-toggle .icon-bar {
+        background-color: #1bffa8;
+        width: 30px;
+    }
+    .navbar-toggle .icon-bar + .icon-bar {
+        margin-top: 6px;
+    }
+    .banner-content-wrapper {
+        height: 40vh;
+    }
+    .navbar-nav > li {
+        max-width: 100%;
+    }
+    .tv-image-rule {
+        height: 10vh;
+    }
+    .navbar-nav > li > a {
+        bottom: auto;
+        font-size: 1.5em;
+        line-height: 10vh;
+        text-align: center;
+        transform: none;
+    }
+    .navbar-nav > li > span {
+        font-size: 2.2em;
+        left: 0;
+        padding-left: 15px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .banner-content-wrapper h1 {
+        font-size: 2.5em;
+    }
+    .banner-content-wrapper p {
+        font-size: 2.15em;
+        line-height: 35px;
+    }
+    .tv-section-padding {
+        padding-top: 70px;
+    }
+    .tv-offspace-space {
+        margin-top: 70px;
+    }
+    .tv-section-padd-tb-80, .tv-section-padd-tb-65 {
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+    .tv-text-title {
+        font-size: 2.5em;
+    }
+    .tv-text-head {
+        margin-bottom: 40px;
+    }
+    p {
+        font-size: 1.1em;
+        line-height: 22px;
+        text-align: left;
+    }
+    .tv-left-padd-30 {
+        padding-left: 15px;
+    }
+    .tv-gallery:hover .overlay {
+        width: 50%;
+    }
+    #tv-contact-form .form-control {
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    #subscribe {
+        margin-bottom: 45px;
+    }
+    .tv-social-buttons {
+        text-align: center;
+    }
+    .tv-middle-footer {
+        margin-top: 40px;
+    }
+    .tv-add-offspace-30-small-view {
+        margin-top: 30px;
+    }
+    .tv-offspace-55 {
+        margin-top: 25px;
+    }
+    .tv-footer-bg {
+        padding: 50px 0 20px;
+    }
+    #back-to-top {
+        font-size: 20px;
+        height: 50px;
+        line-height: 46px;
+        width: 50px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    .tv-service-list > .col-xs-12 {
+        width: 50%;
+    }
+    .banner-content-wrapper {
+        height: 50vh;
+    }
+}
+@media only screen and (max-width: 479px) {
+
+}
+@media only screen and (max-width: 500px) {
+
+
+}
+@media only screen and (max-width: 400px) {
+    .tv-work-gallery .row > .col-xs-6 {
+        width: 100%;
+    }
+    .copyright {
+        font-size: 1.1em;
+    }
+
+}
+
+
+
+
+
+
+
